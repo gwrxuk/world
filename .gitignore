@@ -1,0 +1,15 @@
+node_modules/
+.next/
+next-env.d.ts
+*.tsbuildinfo
+results/*.log
+.gstack/
+results/sweep/
+results/*.log
+# Paper (kept local)
+docs/
+# Large intermediate weights; keep only the final models
+results/*-model.json
+results/model.json
+!results/results-model.json
+!results/iter1-model.json
